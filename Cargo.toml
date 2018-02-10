@@ -1,0 +1,6 @@
+[package]
+name = "wheresmygear"
+version = "0.1.0"
+authors = ["Diogo Baeder <diogobaeder@yahoo.com.br>"]
+
+[dependencies]
