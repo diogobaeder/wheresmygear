@@ -4,3 +4,12 @@ version = "0.1.0"
 authors = ["Diogo Baeder <diogobaeder@yahoo.com.br>"]
 
 [dependencies]
+rocket = "0.3.6"
+rocket_codegen = "0.3.6"
+tesseract = "0.1.0"
+tesseract-sys = "0.1.0"
+
+[dependencies.rocket_contrib]
+version = "*"
+default-features = false
+features = ["json", "tera_templates", "uuid"]
